@@ -29,30 +29,22 @@
 
     </android.support.design.widget.TabLayout>
 
-    <!--<android.support.v4.view.ViewPager-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="0dp"-->
-        <!--app:layout_constraintBottom_toTopOf="@+id/tabLayout"-->
-        <!--app:layout_constraintEnd_toEndOf="parent"-->
-        <!--app:layout_constraintStart_toStartOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent">-->
-
-        <!---->
-
-    <!--</android.support.v4.view.ViewPager>-->
-    <RelativeLayout
-        android:layout_width="0dp"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/tabLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scrollbars="vertical" />
-    </RelativeLayout>
+
+        <!--<fragment-->
+            <!--android:id="@+id/Fragment"-->
+            <!--android:name="android.nuel.programsjournal.FragmentActivity"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+    </android.support.v4.view.ViewPager>
+
 
 </android.support.constraint.ConstraintLayout>
