@@ -39,11 +39,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <!--<fragment-->
-            <!--android:id="@+id/Fragment"-->
-            <!--android:name="android.nuel.programsjournal.FragmentActivity"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent" />-->
+        <fragment
+            android:id="@+id/Fragment"
+            android:name="android.nuel.programsjournal.FragmentActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </android.support.v4.view.ViewPager>
 
 

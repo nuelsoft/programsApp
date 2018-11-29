@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Recycler Resources Initializations
-        recycler = findViewById(R.id.recyclerView);
+        recycler =  findViewById(R.id.recyclerView);
         recycler.setHasFixedSize(true);
         layoutManager = new GridLayoutManager(this, 3);
         recycler.setLayoutManager(layoutManager);
